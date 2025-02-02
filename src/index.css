@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.textcontent{
+    position: absolute;
+    z-index: 10;
+    top: -110%;
+    background-color: rgba(255,255,255,0.9);
+    transition: all 0.5s ease;
+}
+.card:hover .textcontent{
+    top:0;
+}
+.img-card{
+    transition: all 0.5s ease;
+}   
+.title{
+    transition: all 0.5s ease;
+}      
+.card:hover .img-card{
+    transform:scale(0.2);
+}
+.card:hover .title{
+    opacity:0;
+}
+
+.proimg-card {
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+.project-card:hover .proimg-card {
+    opacity: 0.3;
+    transform: scale(1.5);
+}
+
+.project-title {
+    position: absolute;
+    bottom: 10%;
+    transition: bottom 1s ease;
+}
+
+.project-card:hover .project-title {
+    bottom: 75%; 
+}
+
+.project-content {
+    position: absolute;
+    z-index: 10;
+    bottom: -150%; 
+    transition: bottom 1s ease 1s;
+    color: white;
+}
+
+.project-card:hover .project-content {
+    bottom: -5%; 
+}
+
+.project-content button {
+    opacity: 0;
+    transform: translateY(10px); 
+    transition: all 1s ease 1.5s; 
+}
+
+.project-content button:nth-child(2) {
+    transform: translateY(10px); 
+}
+
+.project-card:hover .project-content button {
+    opacity: 1;
+    transform: translateY(0); 
+}

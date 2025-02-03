@@ -20,6 +20,10 @@ const contactSchema = new mongoose.Schema({
   message: String
 });
 const Contact = mongoose.model('Contact', contactSchema);
+app.get("/", (req, res) => {
+  res.send("Backend is running!");
+});
+
 
 app.post('/contact', async (req, res) => {
   try {

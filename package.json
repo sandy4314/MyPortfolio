@@ -1,7 +1,6 @@
 {
   "name": "myportfolio",
   "homepage": "https://sandy4314.github.io/MyPortfolio",
-
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +11,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
   "dependencies": {
     "aos": "^2.3.4",
@@ -45,7 +43,6 @@
     "vite": "^6.0.1"
   },
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "eslint.config.js",
   "keywords": [],
   "author": "",
   "license": "ISC"

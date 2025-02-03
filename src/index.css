@@ -9,6 +9,12 @@ body{
     padding: 0;
     
 }
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  
 .textcontent{
     position: absolute;
     z-index: 10;

@@ -22,7 +22,7 @@ const Skills = () => {
         Transforming ideas into impactful solutions, I craft seamless web applications, solve complex problems, and design visually compelling materials that exceed expectations and inspire meaningful connections.
       </h1> {/* Medium Gray */}
 
-      <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-4 gap-5">
         <div data-aos="fade-up" data-aos-delay="300">
           <SkillCard 
             image={skill2} 

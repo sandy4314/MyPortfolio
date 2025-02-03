@@ -30,7 +30,7 @@ const About = () => {
 
       {/* Text and AboutCards Section */}
       <div className="w-full lg:w-2/3 text-center lg:text-left" data-aos="fade-left">
-        <div className="flex items-center justify-center md:justify-start">
+        <div className="flex items-center justify-center xl:justify-start">
           <h2 className="text-3xl font-bold text-[#003366]">About Me...</h2>
         </div>
         <p className="text-gray-900 text-base md:text-lg leading-relaxed">
@@ -42,7 +42,7 @@ const About = () => {
         </p>
 
         {/* ✅ Fixed About Cards Layout */}
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8 lg:gap-10 mt-6">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-6 md:gap-8 lg:gap-20 mt-6">
           <AboutCard
             icon={<ion-icon name="laptop-outline"></ion-icon>}
             title="Programming Languages"

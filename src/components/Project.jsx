@@ -53,7 +53,7 @@ const Project = () => {
         </button>
       </div>
 
-      <div className="projects grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 md:gap-8 lg:gap-10 justify-center items-center place-items-center">
+      <div className="projects grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  gap-6 md:gap-8 lg:gap-10 justify-center items-center place-items-center">
         {selectedProjects.map((project, index) => (
           <div key={project.id} data-aos="fade-up" data-aos-delay={index * 200}> 
             <Projects

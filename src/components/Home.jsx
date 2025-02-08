@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import myimage from '/src/assets/myimage.jpg'; // Ensure this path is correct
-import resume from '/src/assets/resume.pdf'; // Ensure the resume file exists in the correct path
+import resume from '/src/assets/myresume.pdf'; // Ensure the resume file exists in the correct path
 import Button from './Button';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles

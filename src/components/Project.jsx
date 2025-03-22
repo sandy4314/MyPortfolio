@@ -6,18 +6,20 @@ import project1 from '/src/assets/project1.jpg';
 import project2 from '/src/assets/project2.jpg';
 import project4 from '/src/assets/project4.png';
 import project5 from '/src/assets/project5.png';
-import project6 from '/src/assets/project6.png'
+import project6 from '/src/assets/project6.png';
+import project7 from '/src/assets/cityfix.jpg';
 
 import AOS from 'aos'; // Import AOS
 import 'aos/dist/aos.css'; // Import AOS styles
 
 const Project = () => {
   const projects = [
-    { id: 1, type: "Web", title: "Task Management Dashboard", image: project5, description: "A responsive task manager where admins assign and track tasks, while users monitor progress. Built with React.js, Tailwind CSS, and local storage for seamless performance.", link1: "https://github.com/sandy4314/Tasktrack/", link2: "https://sandy4314.github.io/Tasktrack/" },
-    { id: 2, type: "Web", title: "Snake Game", image: project2, description: "A classic Snake Game built with HTML, CSS, and JavaScript, featuring smooth controls and dynamic gameplay. Enjoy a fun, interactive experience right in your browser!", link1: "https://github.com/sandy4314/snakegame/", link2: "https://sandy4314.github.io/snakegame/" },
-    { id: 3, type: "ML", title: "Multi Disease Web App", image: project6, description: "A machine learning-powered web app that predicts multiple diseases, including heart, kidney, Parkinson’s, and diabetes, based on user inputs. It provides quick and accurate health risk assessments for early diagnosis.", link1: "https://github.com/sandy4314/Multi-DIsease-Ml-Web-App", link2: "https://github.com/sandy4314/Multi-DIsease-Ml-Web-App" },
-    { id: 4, type: "Web", title: "GuestHouse", image: project1, description: "A responsive website for seamless room booking, showcasing services, amenities, and a gallery. Built with HTML, CSS, and JavaScript for an interactive user experience.", link1: "https://github.com/sandy4314/GuestHouse", link2: "https://sandy4314.github.io/GuestHouse/" },
-    { id: 5, type: "Web", title: "WeatherNow", image: project4, description: "A real-time weather web app that shows temperature, humidity, wind speed, and conditions for any location. Built with JavaScript APIs, HTML, and CSS for accurate and interactive updates.", link1: "https://github.com/sandy4314/weather", link2: "https://sandy4314.github.io/weather/" }
+    { id: 1, type: "Web", title: "City Fix", image: project7, description: "A responsive complaint management system where users can report issues in their city, and admins can track, manage, and resolve complaints efficiently. Built with the MERN stack (MongoDB, Express.js, React.js, Node.js)", link1: "https://github.com/sandy4314/Cityfix/",link2: "https://github.com/sandy4314/Cityfix/" },
+    { id: 2, type: "Web", title: "Task Management Dashboard", image: project5, description: "A responsive task manager where admins assign and track tasks, while users monitor progress. Built with React.js, Tailwind CSS, and local storage for seamless performance.", link1: "https://github.com/sandy4314/Tasktrack/", link2: "https://sandy4314.github.io/Tasktrack/" },
+    { id: 3, type: "Web", title: "Snake Game", image: project2, description: "A classic Snake Game built with HTML, CSS, and JavaScript, featuring smooth controls and dynamic gameplay. Enjoy a fun, interactive experience right in your browser!", link1: "https://github.com/sandy4314/snakegame/", link2: "https://sandy4314.github.io/snakegame/" },
+    { id: 4, type: "ML", title: "Multi Disease Web App", image: project6, description: "A machine learning-powered web app that predicts multiple diseases, including heart, kidney, Parkinson’s, and diabetes, based on user inputs. It provides quick and accurate health risk assessments for early diagnosis.", link1: "https://github.com/sandy4314/Multi-DIsease-Ml-Web-App", link2: "https://github.com/sandy4314/Multi-DIsease-Ml-Web-App" },
+    { id: 5, type: "Web", title: "GuestHouse", image: project1, description: "A responsive website for seamless room booking, showcasing services, amenities, and a gallery. Built with HTML, CSS, and JavaScript for an interactive user experience.", link1: "https://github.com/sandy4314/GuestHouse", link2: "https://sandy4314.github.io/GuestHouse/" },
+    { id: 6, type: "Web", title: "WeatherNow", image: project4, description: "A real-time weather web app that shows temperature, humidity, wind speed, and conditions for any location. Built with JavaScript APIs, HTML, and CSS for accurate and interactive updates.", link1: "https://github.com/sandy4314/weather", link2: "https://sandy4314.github.io/weather/" }
   ];
 
   const [change, setChange] = useState("All");

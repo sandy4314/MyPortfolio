@@ -15,10 +15,10 @@ const Skills = () => {
   }, []);
 
   return (
-    <div id="skills" className="mt-10 flex flex-col items-center justify-center">
-      <h1 className="font-bold text-3xl text-[#003366]" data-aos="fade-up">Skills...</h1>  {/* Navy Blue */}
+    <div id="skills" className="mt-32  md:mt-40 flex flex-col items-center justify-center">
+      <h1 className="font-bold text-3xl text-[#003366] dark:text-indigo-300" data-aos="fade-up">Skills...</h1>  {/* Navy Blue */}
       <h1 className="text-xl font-extrabold text-[#FF9F00] mt-3" data-aos="fade-up" data-aos-delay="100">What I'm good at..</h1> {/* Vibrant Yellow */}
-      <h1 className="text-center text-lg m-3 text-[#555555] w-[70%]" data-aos="fade-up" data-aos-delay="200">
+      <h1 className="text-center text-lg m-3 text-[#555555] w-[70%] dark:text-gray-300" data-aos="fade-up" data-aos-delay="200">
         Transforming ideas into impactful solutions, I craft seamless web applications, solve complex problems, and design visually compelling materials that exceed expectations and inspire meaningful connections.
       </h1> {/* Medium Gray */}
 

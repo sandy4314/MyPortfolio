@@ -36,11 +36,11 @@ const Project = () => {
   }, []);
 
   return (
-    <div className="m-10" id="projects">
+    <div className="m-10 md:mt-40 " id="projects">
       <div className="flex justify-center flex-col items-center">
-        <h1 className="font-bold text-3xl text-[#003366]" data-aos="fade-up">Projects...</h1> {/* Navy Blue for Main Heading */}
+        <h1 className="font-bold text-3xl text-[#003366] dark:text-indigo-300" data-aos="fade-up">Projects...</h1> {/* Navy Blue for Main Heading */}
         <h1 className="text-xl font-extrabold text-[#FF9F00] mt-3 text-center" data-aos="fade-up" data-aos-delay="100">Discover My Innovative Projects..</h1> 
-        <p className="text-center text-lg m-3 text-[#555555]" data-aos="fade-up" data-aos-delay="200">Explore my collection of projects, where I showcase my skills in developing innovative solutions.</p> 
+        <p className="text-center text-lg m-3 text-[#555555] dark:text-gray-300" data-aos="fade-up" data-aos-delay="200">Explore my collection of projects, where I showcase my skills in developing innovative solutions.</p> 
       </div>
 
       <div className="flex justify-center">
@@ -53,6 +53,7 @@ const Project = () => {
         <button onClick={() => handleChange("ML")} className="bg-yellow-300 w-20 h-10 rounded-xl m-2 text-black font-semibold text-xl hover:bg-yellow-200" data-aos="fade-up" data-aos-delay="400">
           ML
         </button>
+        
       </div>
 
       <div className="projects grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3  gap-6 md:gap-8 lg:gap-10 justify-center items-center place-items-center">

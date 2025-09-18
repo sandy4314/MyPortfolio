@@ -40,7 +40,7 @@ const Home = () => {
           I'm a Full Stack Web Developer
         </h1>
         <p className="mt-5 text-gray-800 dark:text-gray-300 text-lg md:text-xl leading-relaxed">
-          I am Onteru Sandeep Kumar Yadav, a third-year B.Tech student at RVR&JC College of Engineering 
+          I am Onteru Sandeep Kumar Yadav, a Final Year B.Tech student at RVR&JC College of Engineering 
           with a passion for web development, coding, and problem-solving.
         </p>
         <div className="mt-11 flex justify-center md:justify-start space-x-2">
